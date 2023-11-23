@@ -1,0 +1,9 @@
+The Database delivery has tables with columns:
+conversations - id , user_id, driver_id 
+drivers - driver_id (AI auto increment), name, phone_number
+foods - id , name, type, price, shop, shop_location, image
+messages - id, user_id, driver_id, messgae_text, timestamp
+orders - id, user_order, total, quantity, name, location, user_id, reference_id, order_timestamp, deliveryFee
+users - id, name, password, email, phone_number, cart, picture_of_id, location, is_driver, orders
+
+NOTE: all id are auto increment (AI)
